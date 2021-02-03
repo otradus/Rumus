@@ -1,0 +1,33 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: x-large;
+  font-weight: bolder;
+}
+
+table,
+th,
+td {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+table {
+  width: 100%;
+}
+
+th,
+td {
+  padding: 30px 15px;
+  text-align: center;
+}
+
+input {
+  text-align: center;
+  width: 80%;
+  border: 0px;
+}
+
+.myinput {
+  background-color: lightgreen;
+}
