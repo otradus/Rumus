@@ -28,6 +28,10 @@ const c2 = document.getElementById("c2");
 const c3 = document.getElementById("c3");
 const c4 = document.getElementById("c4");
 
+function calculateAllTimeOut() {
+  setTimeout(calculateAll, 500);
+}
+
 function calculateAll() {
   const hasilx1 = 0;
   const hasilx2 = Number(input2.value) - Number(input1.value);
@@ -65,7 +69,7 @@ function calculateAll() {
   c4.textContent = hasily4 * 5;
 }
 
-input1.addEventListener("keydown", calculateAll);
-input2.addEventListener("keydown", calculateAll);
-input3.addEventListener("keydown", calculateAll);
-input4.addEventListener("keydown", calculateAll);
+input1.addEventListener("keydown", calculateAllTimeOut);
+input2.addEventListener("keydown", calculateAllTimeOut);
+input3.addEventListener("keydown", calculateAllTimeOut);
+input4.addEventListener("keydown", calculateAllTimeOut);

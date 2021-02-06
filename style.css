@@ -1,24 +1,31 @@
 * {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
-  font-size: x-large;
-  font-weight: bolder;
+  font-size: medium;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+  text-shadow: 1px 1px 2px lightgreen;
+  font-size: 64px;
 }
 
 table,
 th,
 td {
   border-collapse: collapse;
-  border: 1px solid black;
+  border: 2px solid black;
 }
 
 table {
+  margin: auto;
   width: 100%;
 }
 
 th,
 td {
-  padding: 30px 15px;
+  padding: 30px 10px;
   text-align: center;
 }
 
@@ -26,8 +33,21 @@ input {
   text-align: center;
   width: 80%;
   border: 0px;
+  box-sizing: border-box;
 }
 
 .myinput {
   background-color: lightgreen;
+}
+
+.red {
+  color: red;
+}
+
+.gray {
+  color: gray;
+}
+
+.blue {
+  color: blue;
 }
